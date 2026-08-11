@@ -3,8 +3,8 @@
 Code for a smart alarm clock using ESP-IDF and LVGL.
 
 Hardware:
-ESP32-C3
-Hosyond ST7796 capacitive tft
+- ESP32-C3
+- Hosyond ST7796 capacitive tft
 
 ## Requirements
 - [ESP-IDF v6.2](https://docs.espressif.com/projects/esp-idf/en/v6.0.2/esp32c3/get-started/index.html)
@@ -14,7 +14,7 @@ Hosyond ST7796 capacitive tft
 ## Build
 If using ESP-IDF venv,
 ```bash
-idf.py set-target esp32
+idf.py set-target esp32c3
 idf.py build
 idf.py flash
 ```
